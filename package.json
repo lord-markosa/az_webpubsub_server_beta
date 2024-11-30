@@ -1,0 +1,25 @@
+{
+    "name": "shatbox_beta",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "fast": "nodemon index.js",
+        "debug": "node --inspect index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@azure/web-pubsub": "^1.1.1",
+        "@azure/web-pubsub-client": "^1.0.0",
+        "@azure/web-pubsub-express": "^1.0.5",
+        "cors": "^2.8.5",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
